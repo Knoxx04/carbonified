@@ -18,4 +18,16 @@ code {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
   background-position: center;
   background-size: cover;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #5d9eba;
+  border-radius: 30px;
 }
