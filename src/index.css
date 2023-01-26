@@ -12,8 +12,17 @@ code {
     monospace;
 }
 
+/* .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > * {
+  margin-top: 20px;
+} */
+
 .navbar{
-  background-color: rgba(153, 201, 195, 0.8);
+  background-color: rgba(59, 90, 86, 0.8);
   position: fixed;
   display: flex;
   padding: 10px 60px;
@@ -24,7 +33,7 @@ code {
   justify-content: space-between;
 }
 .logo1{
-  color: rgb(225, 88, 54);
+  color: rgb(246, 163, 30);
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
@@ -38,8 +47,8 @@ code {
   align-items: center;
 }
 .navbar ul li a{
-  color:rgb(93, 158, 186);
-  color:rgb(93, 158, 186);
+  color:rgb(93, 150, 174);
+  color:rgb(175, 244, 86);
   padding: 5px;
   text-decoration: none;
   font-size: 20px;
@@ -47,7 +56,7 @@ code {
   margin: 10px;
 }
 .navbar ul li a:hover{
-  background-color:rgb(31, 81, 108);
+  background-color:rgb(87, 137, 164);
   color:rgb(56, 177, 171);
   color:white;
   border-radius: 10%;

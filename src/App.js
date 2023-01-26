@@ -3,15 +3,24 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-//import Contact from './components/Contact';
+import About from './components/About';
+
+function Layout({ children }) {
+  return (
+    <div>
+      <Navbar />
+      {children}
+    </div>
+  );
+}
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+    <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Navbar />} />
+      <Route path="/" element={<Layout><Home /></Layout>} />
+        <Route path="/about" element={<Layout><About /></Layout>} />
         <Route path="/login" element={<Navbar />} />
       </Routes>
     </BrowserRouter>
