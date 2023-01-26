@@ -4,9 +4,10 @@ import Flights from './Flights'
 import Fuel from './Fuel'
 import Shipping from './Shipping'
 
+
 function Estimates() {
   return (
-    <div>
+    <div className="estmate">
       <Electricity/>
       <Flights/>
       <Fuel/>

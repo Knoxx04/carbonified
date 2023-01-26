@@ -3,9 +3,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-  
+  background-color: rgb(102, 110, 110);
+  height: 1050px;
+
 }
+
 
 
 
