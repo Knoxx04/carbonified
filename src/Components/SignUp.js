@@ -28,6 +28,18 @@ function SignUp () {
                     <a href="./index.html">Back to home</a>
                     <i className="fas fa-arrow-left"></i>
                 </div>
+                </div>
+        </div>
+        <div className="form-box right">
+            <div className="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            </div>
+        {SignUp}
+    </div>
+    
     );
 }
 
