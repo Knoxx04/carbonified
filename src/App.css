@@ -1,38 +1,29 @@
+@keyframes example{
+ 0% {bacground-color: rgb(102, 110, 110);}
+  10%{background-color: rgb(64, 64, 145);}
+  20%{background-color: rgb(124, 104, 143);}
+  40%{background-color: rgb(252, 252, 214);}
+  60%{background-color: rgb(204, 180, 152);}
+  80%{background-color: rgb(196, 114, 132);}
+  100%{background-color: currentColor;}
+}
+
+
+
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 1050px;
+  background-color: rgb(102, 110, 110);
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
