@@ -14,7 +14,11 @@ function SignUp () {
                     <p>Nairobi,</p>
                     <p>Kenya</p>
                 </div>
-
+                <div className="icons">
+                    <div className="contact">
+                        <i className="fas fa-phone"></i>
+                        <p>Tel: +254 7200001001</p>
+                    </div>
     );
 }
 
