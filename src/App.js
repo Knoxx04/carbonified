@@ -1,12 +1,14 @@
 import React from 'react'
 import './App.css';
+import Estimates from './components/Estimates';
 
 
 
 function App() {
-  return (
+  
+return (
     <div className="App">
-     <Homepage />
+     <Estimates/>
      
     </div>
   );
