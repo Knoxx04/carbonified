@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -10,7 +10,20 @@ function Layout({ children }) {
     <div>
       <Navbar />
       {children}
+import React from'react';
+import './App.css';
+import SignUp from './Components/SignUp';
+
+function App() {
+
+  return (
+
+    <div className="App">
+
+    <SignUp />
+
     </div>
+    
   );
 }
 
@@ -27,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
