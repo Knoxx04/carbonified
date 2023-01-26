@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-const Flights = () => {
+const Shipping = () => {
   const [response, setResponse] = useState({});
   const [inputValue, setInputValue] = useState('');
 
@@ -13,18 +13,16 @@ const Flights = () => {
     e.preventDefault();
 
     const requestBody = {
-        
-            type: "flight",
-            passengers:(inputValue),
-            legs: [
-              {"departure_airport": "", "destination_airport": ""},
-              {"departure_airport": "", "destination_airport": ""}
-            ]
-          
+        type: "shipping",
+        weight_value: 200,
+        weight_unit: "g",
+        distance_value:(inputValue),
+        distance_unit: "km",
+        transport_method: "truck"
     };
 
     try {
-      const res = await fetch('', {
+      const res = await fetch('https://www.carboninterface.com/api/v1/estimates', {
         method: 'POST',
         headers: {
           Authorization: `Bearer YQytsSidKitpSJj1eNbGsw`,
@@ -44,7 +42,7 @@ const Flights = () => {
   return(
     <div className="">
         <div className="">
-            <h4 className="">Enter Number of Passengers</h4>
+            <h4 className="">Enter the Electricity Units to estimate</h4>
             <form className="" onSubmit={handleSubmit}>
                 <input className="" type="number" value={inputValue} onChange={handleChange}/>
                 <button className="" type="submit">Estimate</button>
@@ -58,4 +56,4 @@ const Flights = () => {
 }
 
 
-export default Flights
+export default Shipping
