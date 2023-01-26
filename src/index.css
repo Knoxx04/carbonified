@@ -41,3 +41,12 @@ code {
   background: linear-gradient(to right, #1f516c, #5d9eba);
   border-radius: 30px;
 }
+
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
