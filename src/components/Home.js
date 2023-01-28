@@ -1,12 +1,11 @@
-import React from 'react'
-import SignUp from './SignUp'
+import React from "react";
 
 const Home = () => {
   return (
     <div>
-      <SignUp/>
+        <h1>Hello</h1>
+
     </div>
   )
-}
-
+};
 export default Home

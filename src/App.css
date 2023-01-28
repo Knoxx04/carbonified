@@ -1,11 +1,11 @@
-@keyframes example{
+/*@keyframes example{
  0% {bacground-color: rgb(102, 110, 110);}
   10%{background-color: rgb(64, 64, 145);}
   20%{background-color: rgb(124, 104, 143);}
   40%{background-color: rgb(252, 252, 214);}
   60%{background-color: rgb(204, 180, 152);}
   80%{background-color: rgb(196, 114, 132);}
-  100%{background-color: ;}
+  100%{background-color: rgb(182, 144, 144)}
 }
 
 
@@ -22,7 +22,7 @@
   animation-name: example;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-}
+}*/
 
 
 
