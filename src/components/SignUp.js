@@ -24,17 +24,20 @@ function SignUp () {
                         <p>Email: support@Carbonified.com</p>
                     </div>
                 </div>
-                <div className="navigation">
-                    <a href="./index.html">Back to home</a>
+                <div className="mouse">
+                    <br></br>
+                    <br></br>
+                    <a href="./Home">Back to home</a>
                     <i className="fas fa-arrow-left"></i>
                 </div>
                 </div>
         </div>
         <div className="form-box right">
             <div className="button-box">
-                <div id="btn"></div>
+                <div className="btn0">
                 <button type="button" class="toggle-btn" onclick="login()">Login</button>
                 <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
             </div>
             </div>
         {SignUp}

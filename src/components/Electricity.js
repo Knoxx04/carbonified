@@ -42,7 +42,7 @@ const Electricity = () => {
         <div className="">
             <h4 className="">Enter the Electricity Units to estimate</h4>
             <form className="" onSubmit={handleSubmit}>
-                <input className="" type="number" value={inputValue} onChange={handleChange}/>
+                <input className="" type="number"  placeholder="Elecricity" value={inputValue} onChange={handleChange}/>
                 <button className="" type="submit">Estimate</button>
             </form>
         </div>

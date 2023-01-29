@@ -42,9 +42,9 @@ const Shipping = () => {
   return(
     <div className="">
         <div className="">
-            <h4 className="">Enter the Distance Value to estimate</h4>
+            <h4 className="">Enter the Distance Value </h4>
             <form className="" onSubmit={handleSubmit}>
-                <input className="" type="number" value={inputValue} onChange={handleChange}/>
+                <input className="" type="number" placeholder="Distance" value={inputValue} onChange={handleChange}/>
                 <button className="" type="submit">Estimate</button>
             </form>
         </div>

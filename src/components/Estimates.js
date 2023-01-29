@@ -9,9 +9,16 @@ function Estimates() {
   return (
     <div className="estmate">
       <Electricity/>
+      <br></br>
+      <br></br>
       <Flights/>
+      <br></br>
       <Fuel/>
+      <br></br>
+      <br></br>
       <Shipping/>
+      <div className='estimate2'>
+      </div>
       </div>
   )
 }

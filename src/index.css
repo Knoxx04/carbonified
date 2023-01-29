@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Leckerli+One&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,7 +17,7 @@ code {
   position: fixed;
   display: flex;
   padding: 10px 60px;
-  width: 95vw;
+  width: 100vw;
   text-decoration: none;
   flex-wrap: wrap;
   align-items: center;
@@ -47,4 +49,120 @@ code {
   background-color: rgb(87, 137, 164);
   color:white;
   border-radius: 10%;
+}
+.Hme1{
+  background-image: url(/Images/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 90vh;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'ubuntu';
+}
+
+.Hme1 h1{
+  font-size: 80px;
+}
+.Hme1 p{
+  color:rgb(192, 231, 142);
+}
+.contact1{
+  background-image: linear-gradient(rgba(7, 8, 8, 0.411), rgba(108, 255, 199, 0.4));
+}
+.abt1{
+  text-align: center;
+  padding-top: 400px;
+  background:#131516e5;
+}
+.abt2{
+  text-align: center;
+  padding-bottom: 450px;
+  margin-top: 80px;
+  background:#131516e5;
+  font-size: 20px;
+}
+.estmate{
+  text-align: center;
+  padding-top: 400px;
+  background: #131516e5;
+
+}
+.estimate2{
+  text-align: center;
+  padding-top: 400px;
+  background: #131516e5;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(7, 8, 8, 0.411), rgba(108, 255, 199, 0.4));
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.form-box {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  margin: 6% 0;
+  padding: 5px;
+  background: #fff;
+  overflow: hidden;
+}
+.form-box.left {
+  background-image: linear-gradient(rgba(12, 97, 146, 0.4), rgba(4, 48, 53, 0.4));
+  background-size: cover;
+  width: 500px;
+}
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #5d9eba;
+  border-radius: 30px;
+}
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+
+}
+.info{
+  margin-top: 190px;
+}
+.btn0{
+  margin-top: 260px;
+}
+
+.mouse{
+  padding-top: 22px;
+  margin-top: 10%;
+  padding-bottom: 30px;
+  animation-iteration-count: infinite;
+}
+.mouse{
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-55px);
+  }
+  60% {
+      transform: translateY(-45px);
+  }
 }
